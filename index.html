@@ -13,100 +13,151 @@
     />
 
     <!-- egen CSS -->
-    <link rel="stylesheet" href="css/rwd.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/rwd.css" />
 
-    <title>Bootstrap grid øvelse</title>
+    <title>BolcheBageriet</title>
   </head>
 
   <body>
     <!-- Tilføj dit indhold under denne linie -->
+    <header>
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">Menupunkt</a>
+        <a class="nav-link" href="#">Menupunkt</a>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="nav-link" href="#">Menupunkt</a>
+        <a class="nav-link" href="#">Menupunkt</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
 
     <main class="container">
-      <section id="hero" class="row">
-        <div class="col-12 d-grid">
-          <img class="img-fluid mb-5" src="imgs/storis.jpg" alt="isvaffel" />
-          <h1 class="text-center mb-5 p-4 rounded-3">Ispusheren <br>Amager isbutik</h1>
+      <section id="splash" class="row text-center">
+        <div class="box_1 col-12">
+          <h1 class="mt-5 pt-5">Header overskrift</h1>
+          <p class="offset-4 mb-5 offset-md-3 offset-lg-2 offset-xl-2">Lorem ipsum dolor sit amet</p>
+          <button type="button" class="col-6 mt-5 col-md-3 col-lg-2 col-xl-1 btn-lg text-center">Knap</button>
+        </div>
+      </section>
+
+      <section id="section_1">
+      <div class="container-fluid">
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-5">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <h2 class="mt-5 offset-1">Underoverskrift/tekst</h2>
+				<div class="scroll_card text-center">
+          <div class="text-center pt-5"></div>
+          <div class="row">
+            <p class="mt-5 pt-5">Lorem ipsum dolor sit</p>
+          <button type="button" class="button_scroll col-6 mt-5 col-md- col-lg-4 col-xl-4 text-center">Knap</button>
+        </div>
+        </div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <h2 class="mt-5 offset-1">Underoverskrift/tekst</h2>
+				<div class="scroll_card text-center">
+          <div class="text-center pt-5"></div>
+           <div class="row">
+            <p class="mt-5 pt-5">Lorem ipsum dolor sit</p>
+          <button type="button" class="button_scroll col-6 mt-5 col-md- col-lg-4 col-xl-4 text-center">Knap</button>
+        </div>
+			</div>
+      </div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <h2 class="mt-5 offset-1">Underoverskrift/tekst</h2>
+				<div class="scroll_card text-center">
+          <div class="text-center pt-5"></div>
+           <div class="row">
+            <p class="mt-5 pt-5">Lorem ipsum dolor sit</p>
+          <button type="button" class="button_scroll col-6 mt-5 col-md- col-lg-4 col-xl-4 text-center">Knap</button>
+           </div>
+        </div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <h2 class="mt-5 offset-1">Underoverskrift/tekst</h2>
+				<div class="scroll_card text-center">
+          <div class="text-center pt-5"></div>
+           <div class="row">
+            <p class="mt-5 pt-5">Lorem ipsum dolor sit</p>
+          <button type="button" class="button_scroll col-6 mt-5 col-md- col-lg-4 col-xl-4 text-center">Knap</button>
+        </div>
+			</div>
+      </div>
+      
+			<div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <h2 class="mt-5 offset-1">Underoverskrift/tekst</h2>
+				<div class="scroll_card text-center">
+          <div class="text-center pt-5"></div>
+           <div class="row">
+            <p class="mt-5 pt-5">Lorem ipsum dolor sit</p>
+          <button type="button" class="button_scroll col-6 mt-5 col-md- col-lg-4 col-xl-4 text-center">Knap</button>
+        </div>
+			</div>
+      </div>
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <h2 class="mt-5 offset-1">Underoverskrift/tekst</h2>
+				<div class="scroll_card text-center">
+          <div class="text-center pt-5"></div>
+           <div class="row">
+            <p class="mt-5 pt-5">Lorem ipsum dolor sit</p>
+          <button type="button" class="button_scroll col-6 mt-5 col-md- col-lg-4 col-xl-4 text-center">Knap</button>
+        </div>
+			</div>
+    </div>
+    </div>
+</div>
+</section>
+
+<section id="section_2" class="row">
+        <div class="mt-5">
+          <h2>Underoverskrift</h2>
+        </div>
+        <div class="box_2 col-12 mb-5 col-md-6 col-lg-6 col-xl-6 d-md-flex flex-md-column">
+          <p class="text_1 mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi lacus ipsum, sagittis at egestas non, scelerisque et nunc. 
+            Vivamus odio tellus, bibendum non purus consectetur, placerat viverra enim. 
+            Sed nec rhoncus mauris. 
+            Donec lorem tellus, ullamcorper pulvinar tempus eu, vulputate at urna. </p>
+        </div>
+        <div class="box_3 col-12 mb-5 col-md-6 col-lg-6 col-xl-6 d-md-flex flex-md-column"></div>
+      </section>
+
+      <section id="section_3" class="row">
+        <div class="mt-5">
+          <h2>Underoverskrift</h2>
+           </div>
+             <div class="box_4 col-12 mb-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi lacus ipsum, sagittis at egestas non, scelerisque et nunc. 
+              Vivamus odio tellus, bibendum non purus consectetur, placerat viverra enim.</p>
           </div>
-      </section>
+          <div class="box_5 col-12"></div>
+        </section>
 
-      <section id="voresis" class="row">
-        <div class="col-12 mt-5 text-center">
-          <h2>Vores is</h2>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-4 col-xl-4 text-center">
-          <img class="img-fluid" src="imgs/astronaut.jpg" alt="astronaut" />
-          <h4>Astronaut</h4>
-          <p>14 DKK</p>
-          <button type="button" class="btn btn-success btn-lg text-center">Køb</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-4 col-xl-4 text-center">
-          <img class="img-fluid" src="imgs/chokois.jpg" alt="chokoladeis" />
-          <h4>Chokoladeis</h4>
-          <p>32 DKK</p>
-          <button type="button" class="btn btn-success btn-lg text-center">Køb</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-4 col-xl-4 text-center">
-          <img class="img-fluid" src="imgs/flotis.jpg" alt="flot is" />
-          <h4>Flot, dyr is</h4>
-          <p>82 DKK</p>
-          <button type="button" class="btn btn-success btn-lg">Køb</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-4 col-xl-4 text-center">
-          <img class="img-fluid" src="imgs/grimis.jpg" alt="grim is" />
-          <h4>Billig grim is</h4>
-          <p>6 DKK</p>
-          <button type="button" class="btn btn-success btn-lg">Køb</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-4 col-xl-4 text-center">
-          <img class="img-fluid" src="imgs/isned.jpg" alt="vaeltet is" />
-          <h4>Væltet is</h4>
-          <p>12 DKK</p>
-          <button type="button" class="btn btn-success btn-lg">Køb</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-4 col-xl-4 text-center">
-          <img class="img-fluid" src="imgs/iskaffe.jpg" alt="iskaffe" />
-          <h4>Min yndling!</h4>
-          <p>24 DKK</p>
-          <button type="button" class="btn btn-success btn-lg">Køb</button>
-        </div>
-      </section>
-
-      <section id="tilbud" class="row">
+   <section id="section_6" class="row">
         <div class="mt-5">
-          <h2>Aktuelle tilbud</h2>
+          <h2>Underoverskrift</h2>
         </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-3 col-xl-3 d-md-flex flex-md-column">
-          <h5>Dagens tilbud</h5>
-          <p>Du kan få en portion flødeskum med ved køb af en kæmpe is.</p>
-          <button type="button" class="btn btn-warning btn-sm mt-md-auto">Køb nu</button>
+        <div class="box_6 col-12 mb-5 col-md-6 col-lg-6 col-xl-6 d-md-flex flex-md-column">
+          <p class="text_1 mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Morbi lacus ipsum, sagittis at egestas non, scelerisque et nunc.
+            Vivamus odio tellus, bibendum non purus consectetur, placerat viverra enim. Sed nec rhoncus mauris.
+            Donec lorem tellus, ullamcorper pulvinar tempus eu, vulputate at urna.
+            Vestibulum cursus est vitae ex imperdiet, quis molestie diam consequat. 
+            Sed tempor nisi sed justo tristique, sit amet pulvinar eros sodales.</p>
         </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-3 col-xl-3 d-md-flex flex-md-column">
-          <h5>Ugens tilbud</h5>
-          <p>Denne uge kan du få en øl-is.</p>
-          <button type="button" class="btn btn-warning btn-sm mt-md-auto">Køb nu</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-3 col-xl-3 d-md-flex flex-md-column">
-          <h5>Månedens tilbud</h5>
-          <p>Vinteris - meget varm. Smager lidt af mormor-cacao.</p>
-          <button type="button" class="btn btn-warning btn-sm mt-md-auto">Køb nu</button>
-        </div>
-        <div class="col-12 mb-5 col-md-6 col-lg-3 col-xl-3 d-md-flex flex-md-column">
-          <h5>Medlemstilbud</h5>
-          <p>Købe en is - og få en gratis</p>
-          <button type="button" class="btn btn-warning btn-sm mt-md-auto">Køb nu</button>
-        </div>
-      </section>
-
-      <section id="omos" class="row">
-        <div class="mt-5">
-          <h2>Vi holder til på Amager</h2>
-        </div>
-        <div class="col-12">
-          <p>Og vores is kan købes gennem Kalles kaffe. Check vores lokaler:</p>
-        </div>
-        <div class="col-12 mb-5">
-          <h2><img class="img-fluid" src="imgs/iskiosk.jpg" alt="iskiosk" /></h2>
+        <div class="box_7 col-12 mb-5 col-md-6 col-lg-6 col-xl-6 d-md-flex flex-md-column">
         </div>
       </section>
     </main>

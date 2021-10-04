@@ -4,15 +4,10 @@
  /**************************************************/
  /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
  /**************************************************/
- body {
-   background-color: red;
- }
-
  /* tidl. kaldet 'xs-' */
  body::before {
    content: "Default. mobile/under 576px. Deafult i Bootstrap.";
    padding: 1rem;
-   background-color: turquoise;
    position: fixed;
    top: 0;
    left: 0;
@@ -29,10 +24,6 @@
  /**************************************************/
  @media (min-width: 576px) {
 
-   body {
-     background-color: hotpink;
-   }
-
    body::before {
      content: "'sm-': lig el. over 576px.";
    }
@@ -44,10 +35,6 @@
  /* // Medium devices (tablets, 768px and up) */
  /**************************************************/
  @media (min-width: 768px) {
-
-   body {
-     background-color: yellow;
-   }
 
    body::before {
      content: "'md': lig el. over 768px. ";
@@ -61,10 +48,6 @@
  /**************************************************/
  @media (min-width: 992px) {
 
-   body {
-     background-color: peru;
-   }
-
    body::before {
      content: "'lg': lig el. over 992px.";
    }
@@ -77,10 +60,6 @@
  /**************************************************/
  @media (min-width: 1200px) {
 
-   body {
-     background-color: blue;
-   }
-
    body::before {
      content: "'xl': lig el. over 1200px.";
    }
@@ -92,10 +71,6 @@
  /* // Extra Extra large (XXL) devices (XXL screens, 1400px and up) */
  /**************************************************/
  @media (min-width: 1400px) {
-
-   body {
-     background-color: yellowgreen;
-   }
 
    body::before {
      content: "'xxl': lig el. over 1400px.";

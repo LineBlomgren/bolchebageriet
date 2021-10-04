@@ -3,30 +3,144 @@
 /**************************************************/
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
-
-#hero {
-  background-color: #ffffff;
+body {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
-#hero div {
-  justify-items: center;
-  align-items: start;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-#hero div * {
+h2 {
+  font-size: 1.5rem;
+}
+.box_1 {
+  height: 32rem;
+  background-color: #EEEEEE;
+  background-image: url(../imgs/natallia-leanovich-yPhPRkBbzbE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box_2 {
+  background-color: #EEEEEE;
+}
+
+.box_3 {
+  background-color: #F7F7F7;
+  height: 35rem;
+  background-image: url(../imgs/natallia-leanovich-L6b6nfdXKN0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box_4 {
+  background-color: #F7F7F7;
+}
+
+.box_5 {
+  background-color: #F7F7F7;
+  height: 35rem;
+  background-image: url(../imgs/natallia-leanovich-L6b6nfdXKN0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box_6 {
+  background-color: #EEEEEE;
+  height: 35rem;
+}
+
+.box_7 {
+  background-image: url(../imgs/natallia-leanovich-yPhPRkBbzbE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_1 {
+  height: 30rem;
+}
+
+.text_2 {
+  height: 30rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+.scroll_card {
+  height: 30rem;
+  background-color: #F7F7F7;
+  background-image: url(../imgs/natallia-leanovich-yPhPRkBbzbE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.card-1{
+	background-color: #F7F7F7;
+}
+
+.card-2{
+	background-color: #F7F7F7;
+}
+
+.card-3{
+	background-color: #F7F7F7;
+}
+
+.card-4{
+	background-color: #F7F7F7;
+}
+
+.card-5{
+	background-color: #F7F7F7;
+}
+
+.card-6{
+	background-color: #F7F7F7;
+}
+
+button {
+  background-color: #8A8A8A;
+  color: white;
+  border: none;
+  border-radius: 0%;  
+}
+
+button:hover {
+  background-color: rgb(27, 27, 27);
+  color: #ffffff;
+}
+
+.button_scroll {
+  height: 3rem;
+}
+
+#splash div * {
   grid-area: 1/1/-1/-1;
 }
-
-#voresis {
-  background-color: #ffffff;
+#splash {
+  margin-bottom: 12rem;
 }
 
-#tilbud {
-  background-color: #ffffff;
+#section_1 {
+  margin-bottom: 12rem;
 }
 
-#omos {
-  background-color: #ffffff;
+#section_2 {
+  margin-bottom: 12rem;
 }
+
+#section_3 {
+  margin-bottom: 12rem;
+}
+
+
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
